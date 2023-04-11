@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Programa1</string>
-    <string name="button">Button</string>
+    <string name="button">Butão</string>
     <string name="mensagem">Mensagem</string>
     <string name="mensagem_recebida">Mensagem Recebida</string>
 </resources>
