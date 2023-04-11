@@ -11,7 +11,8 @@ class MostrarMensagemMainActivity : AppCompatActivity() {
 
         val mensagem = intent.getStringExtra("mensagem")
 
-        findViewById<TextView>(R.id.textViewMostaMensagemRecebida)
-        val textViewMostaMensagemRecebida = mensagem
+        val textViewMostaMensagemRecebida = findViewById<TextView>(R.id.textViewMostaMensagemRecebida)
+        textViewMostaMensagemRecebida.text = mensagem
+
     }
 }
