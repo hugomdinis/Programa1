@@ -3,6 +3,7 @@ package pt.exercicios.programa1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun enviaMensagem() {
-        Toast.makeText(this, "enviar mensagem", Toast.LENGTH_SHORT).show()
+        val editTextTextMensagem = findViewById<EditText>(R.id.editTextTextMensagem)
+        val mensagem = editTextTextMensagem.text.toString()
+
+
     }
 }
